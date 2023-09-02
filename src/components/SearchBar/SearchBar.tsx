@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { SearchIcon } from "../Icons/Icons";
 
 const SearchBar = (): React.ReactElement => {
   const [searchInput, setSearchInput] = useState("");
@@ -13,6 +14,7 @@ const SearchBar = (): React.ReactElement => {
 
   return (
     <form className="w-3/4 h-12 mx-auto relative" onSubmit={handleOnSubmit}>
+      <SearchIcon className="absolute z-10 left-[10px] top-3" color="white" />
       <label htmlFor="search" hidden>
         search
       </label>
