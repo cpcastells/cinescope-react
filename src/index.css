@@ -1,3 +1,6 @@
+@import "@fontsource/montserrat";
+@import "@fontsource/jost";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
