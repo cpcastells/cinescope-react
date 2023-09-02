@@ -2,5 +2,19 @@
 @import "@fontsource/jost";
 
 @tailwind base;
+@layer base {
+  html {
+    background: linear-gradient(
+      180deg,
+      #0f111d 0%,
+      #0f111d 22.67%,
+      rgba(16, 16, 28, 0.96) 78.28%,
+      rgba(0, 0, 0, 0.73) 100%
+    );
+    background-repeat: no-repeat;
+    font-family: "jost", sans-serif;
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
