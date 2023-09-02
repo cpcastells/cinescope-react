@@ -21,6 +21,7 @@ export default defineConfig({
         "**/*.d.ts",
         "src/main.tsx",
         "src/store/index.ts",
+        "src/utils/testUtils.tsx",
       ],
     },
   },

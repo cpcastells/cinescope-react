@@ -8,12 +8,14 @@ const Navbar = (): React.ReactElement => {
       <NavLink
         to="/home"
         className="w-1/2 flex items-center justify-center border-r border-r-[#0F111D]"
+        aria-label="home"
       >
         {({ isActive }) => <HomeIcon color={isActive ? "#ffcf55" : "white"} />}
       </NavLink>
       <NavLink
         to="/favorites"
         className="w-1/2 flex items-center justify-center"
+        aria-label="favorites"
       >
         {({ isActive }) => (
           <FavoriteIcon color={isActive ? "#ffcf55" : "white"} />
