@@ -26,3 +26,22 @@ export const serieMock: SerieData = {
   first_air_date: "2023-08-31",
   vote_average: 8.239,
 };
+
+export const movieListMock: MovieData[] = [
+  {
+    id: 43234,
+    overview: "The fantabulous movie of Barbie",
+    title: "Barbie",
+    poster_path: "/w342/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
+    release_date: "2023-07-19",
+    vote_average: 7.391,
+  },
+  {
+    id: 43235,
+    overview: "The fantabulous movie of Barbie",
+    title: "Oppenheimer",
+    poster_path: "/w342/iuFNMS8U5cb6xfzi51Dbkovj7ds.jpg",
+    release_date: "2023-07-25",
+    vote_average: 8.234,
+  },
+];
