@@ -35,9 +35,7 @@ const LargeCard = ({ media, isMovies }: LargeCardProps): React.ReactElement => {
       <div className="flex items-center justify-between bg-[#0F111D] p-[10px] rounded-b-[5px] shadow-custom">
         <div className="w-[115px]">
           <h3 className="font-semibold truncate">{title}</h3>
-          <span className="text-sm">
-            {releaseOrFirstDate ? releaseOrFirstDate : "-"}
-          </span>
+          <span className="text-sm">{releaseOrFirstDate || "-"}</span>
         </div>
         <span className="w-11 h-11 flex items-center justify-center rounded-full border-2 border-solid border-cyan-300 bg-transparent">
           {formattedVoteAverage}

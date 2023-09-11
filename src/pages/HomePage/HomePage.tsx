@@ -3,7 +3,7 @@ import SearchBar from "../../components/SearchBar/SearchBar";
 
 const HomePage = (): React.ReactElement => {
   return (
-    <main className="flex flex-col gap-7 min-h-screen w-full px-[15px] mb-20">
+    <main className="flex flex-col gap-7 min-h-screen w-full px-[15px] mb-20 items-center">
       <SearchBar />
     </main>
   );
